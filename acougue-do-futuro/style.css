@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+body{
+    background-image: url(img/background.png);
+    
+}
+.fundo-politica{
+	background-color: white;
+}
+.fonte{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8em;
+	letter-spacing: 1px;
+}
+.fonte-nav{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.2rem;
+}
+.fonte-comentario{
+	font-family: 'Oswald', sans-serif;
+}
+
+.bg-principal{
+    background-color: #117700;
+}
+.img-logo{
+    width: 110px;
+}
+.img-footer{
+    width: 150px;
+}
+
+
+.colorBottom {
+    background: #0edf38;
+    text-transform: uppercase;
+    border-radius: 15px;
+	color: white;
+}
+.colorBottom:hover {
+	background: #0db22e;
+	color: white;
+    
+}
+.produto-avulso{
+    max-width: 80%;
+    
+
+}
+.lista-ingredientes{
+	list-style: none;
+	padding: 0;
+}
+.logo-qs{
+	width: 80%;
+}
+
+
