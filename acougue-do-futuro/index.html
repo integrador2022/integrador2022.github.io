@@ -58,30 +58,31 @@
     </header>
       <!-- FIM navbar -->
     <!-- Carousel -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <main id="carouselExampleControls" class="carousel slide bg-light" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <!-- <img src="img/banner-1.png" class="d-block w-100" alt="..."> -->
+           
             <picture>
-              <source  class="d-block w-100" media="(min-width:650px)" srcset="img/banner-03.png">
+              <source  class="d-block w-100" media="(min-width:650px)" srcset="img/banner_01.png">
               
-              <img src="img/banner-03-mini.png"   class="d-block w-100" alt="banner tudo o que você precisa esta aqui" style="width:auto;">
+              <img src="img/banner_01_min.png"   class="d-block w-100" alt="banner tudo o que você precisa esta aqui" style="width:auto;">
             </picture>
             
             
           </div>
           <div class="carousel-item">
             <picture>
-              <source  class="d-block w-100" media="(min-width:650px)" srcset="img/banner-2.png">
+              <source  class="d-block w-100" media="(min-width:650px)" srcset="img/banner_02.png">
               
-              <img src="img/banner-02-mini.png"   class="d-block w-100" alt="banner um mundo mais saudável" style="width:auto;">
+              <img src="img/banner_02_min.png"   class="d-block w-100" alt="banner um mundo mais saudável" style="width:auto;">
             </picture>
           </div>
+
           <div class="carousel-item">
             <picture>
-              <source  class="d-block w-100" media="(min-width:650px)" srcset="img/banner-1.png">
+              <source  class="d-block w-100" media="(min-width:650px)" srcset="img/banner_03.png">
               
-              <img src="img/banner-01-mini.png"   class="d-block w-100" alt="banner alimentalção saudável" style="width:auto;">
+              <img src="img/banner_03_min.png"   class="d-block w-100" alt="banner alimentalção saudável" style="width:auto;">
             </picture>
           </div>
         </div>
@@ -93,14 +94,14 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </main>
       <!-- FIM carousel -->
      <!-- Cards Produtos -->
-     <section class="container">
+     <section class="container bg-light py-5 rounded shadow-lg">
       <div class="row">
         
         <div class="text-center border-bottom mb-4">
-          <h3 class="my-2 mt-5 fonte">Produtos</h3>
+          <h3 class="my-2 mt-5 fonte text-uppercase">Produtos</h3>
         </div>
 
         <div class="col-md-4 mt-2 mb-5">
@@ -200,11 +201,11 @@
       
      <!-- PARTE FELIPE -->
     <!-- Testemunhas -->
-    <section class="container px-4 py-5 align-end" id="featured-3">
-      <h3 class="pb-2 border-bottom text-center fonte">Testemunhas do Sucesso</h3>
+    <section class="container px-5 py-5 align-end bg-light rounded my-5 shadow-lg" id="featured-3">
+      <h3 class="pb-2 border-bottom text-center fonte text-uppercase">Testemunhas do Sucesso</h3>
 
-      <div class="row g-4 py-1 row-cols-1 row-cols-lg-4 mt-3">
-        <div class="feature col bg-white rounded-2 m-auto mb-3">
+      <div class="row g-4 py-1 row-cols-1 row-cols-lg-4 mt-3 ">
+        <div class="feature col bg-white rounded-2 m-auto mb-3 shadow-lg">
           <div class="text-center mt-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -216,7 +217,7 @@
               Talita, pessoa que falou comigo sempre muito solicita. Amei RECOMENDO</p>
         </div>
 
-        <div class="feature col bg-white rounded-2 m-auto mb-3">
+        <div class="feature col bg-white rounded-2 m-auto mb-3 shadow-lg">
           <div class="text-center mt-2 ">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -227,7 +228,7 @@
             <p class="text-center ">Posso dizer sem sobra de dúvidas que é foi uma das melhores empresas no quesito relacionamento com o cliente. Ótimos produtos e o principal, sem sofrimento animal</p>
         </div>
 
-        <div class="feature col bg-white rounded-2 m-auto mb-3">
+        <div class="feature col bg-white rounded-2 m-auto mb-3 shadow-lg">
           <div class="text-center mt-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -241,8 +242,8 @@
     </section>
 
           <!-- PARCEIROS -->
-    <section class="container marketing text-center my-5">
-      <h2 class="pb-4 border-bottom text-center fonte ">Parceiros</h2>
+          <section class="container marketing text-center my-5 py-5 bg-light rounded shadow-lg">
+      <h2 class="pb-4 border-bottom text-center fonte text-uppercase">Parceiros</h2>
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-3 m-auto py-3">
@@ -263,50 +264,67 @@
         </div><!-- /.row -->
     </section>
       <!-- Footer -->
-      <div class="container-fluid bg-principal">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 ">
-          <div class="col ">
-            <a href="/" class="d-flex align-items-center justify-content-lg-end   link-dark text-decoration-none ">
-              <img  class=" img-footer" src="img/logo_acougue 1.png" alt="">
-            </a>
+        <footer class="text-center text-lg-start text-muted bg-principal">
+    
+          <section class="container text-white">
+            <div class="container pt-5">
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+                  <!-- Content -->
+                    <a href="index.html">
+                      <img  class=" img-footer" src="img/logo_acougue 1.png" alt="">
+                    </a>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-4 col-xl-4 text-center mb-3">
+                  <h6 class="text-uppercase fw-bold">
+                    Contato
+                  </h6>
+  
+                    <address>
+                      <a href="mailto:acouguedofuturo@gmail.com" class="text-reset">acouguedofuturo@gmail.com</a>
+                    </address>
+  
+                    <a href="tel:+5511971411991" class="text-reset">Telefone: (11) 97141-1991</a>
+                </div>
+                <!-- Grid column -->
+                
+                <!-- Grid column -->
+                <section class="col-md-2 col-lg-4 col-xl-4 text-center mb-3">
+                  <!-- Links -->
+                    <h6 class="text-uppercase fw-bold">
+                      Rede Socias
+                    </h6>
+  
+                    <div class="justify-content-center">
+  
+                      <a href="https://api.whatsapp.com/send?phone=5511971411991&text=Ol%C3%A1%2C%20Tudo%20bem%3F%20%20Gostaria%20de%20ver%20a%20tabela%20de%20pre%C3%A7os"  target="_blank"><i class="bi bi-whatsapp fs-3 text-white" ></i></a>
+  
+                      <a href="https://www.instagram.com/acouguedofuturo/"  target="_blank" class="text-white mx-1"><i class="bi bi-instagram fs-3"></i></a>
+  
+                    </div>
+                
+                </section>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+        
+          <!-- Copyright -->
+          
+          <div class="text-center text-white p-4 c_politica">
+            Copyright © 2022 Açougue do Futuro
+            <a class="text-reset fw-bold" href="politica.html">politica de privacidade</a>
           </div>
-      
-          <div class="col mb-3">
-      
-          </div>
-      
-          <div class="col mb-3 mt-4">
-            <h5 class="text-white ">Telefone</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="tel:+5511971411991" class="nav-link p-0 text-white">+55 11 97141-1991</a></li>
-              
-            </ul>
-          </div>
-      
-          <div class="col mb-3 mt-4">
-            <h5 class="text-white ">E-mail</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="mailto:Acouguedofuturo@gmail.com" class="nav-link p-0 text-white ">acouguedofuturo@gmail.com</a></li>
-              
-            </ul>
-          </div>
-      
-          <div class="col mb-3 mt-3">
-            
-            <ul class="nav d-flex">
-              <li class="nav-item mb-2 me-4"><a href="https://www.instagram.com/acouguedofuturo/" target="_blank" class="nav-link p-0 text-muted"><i class="bi bi-instagram fs-4 text-light"></i></a></li>
-              <li class="nav-item mb-2"><a href="https://api.whatsapp.com/send?phone=5511971411991&text=Ol%C3%A1%2C%20Tudo%20bem%3F%20%20Gostaria%20de%20ver%20a%20tabela%20de%20pre%C3%A7os" class="nav-link p-0 text-muted"><i class="bi bi-whatsapp fs-4 text-light"></i></a></li>
-            </ul>
-          </div>
-          <div class="container justify-content-center py-1">
-            <p class="text-white text-center">Copyright &copy; 2022 Açougue do Futuro</p>
-            <p class="text-white text-center">termos e condições de 
-              <a href="politica.html">
-                politica de privacidade</p>
-              </a>
-          </div>
+          <!-- Copyright -->
         </footer>
-      </div>
+      
       <!-- Javascript Bootstrap -->
       <script src="js/bootstrap.bundle.js"></script>
     
